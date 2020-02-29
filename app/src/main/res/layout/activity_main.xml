@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-58dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Code Next's"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:text="Breakfast Options"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/imgTwo"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:src="@drawable/waffle" />
+
+            <Button
+                android:id="@+id/buttonTwo"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:onClick="Waffles"
+                android:text="Waffles" />
+
+            <ImageView
+                android:id="@+id/imgOne"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:src="@drawable/pancakes" />
+
+            <Button
+                android:id="@+id/buttonOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Pancakes"
+                android:text="Pancakes" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="422dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/bacon" />
+
+            <Button
+                android:id="@+id/buttonThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bacon" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
